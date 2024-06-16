@@ -9,7 +9,15 @@ import { useLocation } from 'react-router-dom'
 
 function SingleArticle() {
   const location = useLocation()
+  useEffect(() => {
+    if (window.scrollY) {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
+      })
+    }
 
+  })
   return (
     <>
       <Category>
