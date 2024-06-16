@@ -9,7 +9,7 @@ import articlesRelationManWoman from '../data/RelationManWoman'
 import ArticleBlock from '../components/ArticleBlock'
 import { NavLink } from 'react-router-dom'
 import { useEffect } from 'react'
-
+import { motion } from 'framer-motion'
 
 
 function Home() {
@@ -20,13 +20,13 @@ function Home() {
         if(window.scrollY) {
             scrollTo({
                 top: 0,
-                behavior: 'smooth'
+                behavior: 'instant'
             })
         }
     }, [])
     
     return (
-        <>
+        <motion.div initial={{opacity: 0}} animate={{opacity: 1}} exit={{opacity: 0}} transition={{duration: 1}}>
             <NavbarTest />
             <FirstSection title="Sport, motivation, amour : Trouvez l'équilibre parfait pour une vie épanouie" description="Découvrez comment l'activité physique, la motivation personnelle et une relation saine contribuent à un bien-être durable." />
             <section className="bg-[#F2F4F7] py-8 flex flex-col gap-10">
@@ -60,7 +60,7 @@ function Home() {
 
             </section>
             <Footer />
-        </>
+        </motion.div>
     )
 }
 
