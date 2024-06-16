@@ -8,6 +8,7 @@ import articlesMotivation from '../data/MotivationData'
 import articlesRelationManWoman from '../data/RelationManWoman'
 import ArticleBlock from '../components/ArticleBlock'
 import { NavLink } from 'react-router-dom'
+import { useEffect } from 'react'
 
 
 
@@ -15,6 +16,15 @@ function Home() {
     const LAS = articlesSport.slice(-3) // on recupere les trois dernier articles de sport
     const LAM = articlesMotivation.slice(-3) //... de motivation
     const LARHF = articlesRelationManWoman.slice(-3) //... de relation homme femme
+    useEffect(() => {
+        if(window.scrollY) {
+            scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            })
+        }
+    }, [])
+    
     return (
         <>
             <NavbarTest />
