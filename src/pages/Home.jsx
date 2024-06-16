@@ -23,7 +23,7 @@ function Home() {
 
                 <div className="lg:w-3/4 md:w-11/12 w-11/12 mx-auto">
                     <div className="flex justify-between gap-2"><h1 className="font-bold text-xl"> Sport </h1><NavLink to="/sport" className="bg-white rounded p-2 font-bold text-sm">Voir tout</NavLink></div>
-                    <div className="flex flex-col gap-5 mt-4">
+                    <div className="flex flex-col gap-10 mt-4">
                         {LAS.map((article, index) => (
                             <ArticleBlock key={index} article={article} detailPath="/sport/" recommendedArticles={articlesSport} />
                         ))}
@@ -32,7 +32,7 @@ function Home() {
 
                 <div className="lg:w-3/4 md:w-11/12 w-11/12 mx-auto">
                     <div className="flex justify-between gap-2"><h1 className="font-bold text-xl"> Motivation </h1><NavLink to="/motivation" className="bg-white rounded p-2 font-bold text-sm">Voir tout</NavLink></div>
-                    <div className="flex flex-col gap-5 mt-4">
+                    <div className="flex flex-col gap-10 mt-4">
                         {LAM.map((article, index) => (
                             <ArticleBlock key={index} article={article} detailPath="/motivation/" recommendedArticles={articlesMotivation} />
                         ))}
@@ -41,7 +41,7 @@ function Home() {
 
                 <div className="lg:w-3/4 md:w-11/12 w-11/12 mx-auto">
                     <div className="flex justify-between gap-2" ><h1 className="font-bold text-xl"> Homme-Femme </h1><NavLink to="/relation-homme-femme" className="bg-white rounded p-2 font-bold text-sm">Voir tout</NavLink></div>
-                    <div className="flex flex-col gap-5 mt-4">
+                    <div className="flex flex-col gap-10 mt-4">
                         {LARHF.map((article, index) => (
                             <ArticleBlock key={index} article={article} detailPath="/relation-homme-femme/" recommendedArticles={articlesRelationManWoman} />
                         ))}
