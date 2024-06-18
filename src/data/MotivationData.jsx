@@ -3,12 +3,20 @@ import img2  from "../assets/images/motivation/img2.png"
 import img3  from "../assets/images/motivation/img3.png"
 import img4  from "../assets/images/motivation/img4.png"
 import img5  from "../assets/images/motivation/img5.png"
+import lazyimg1 from "../assets/images/motivation/lazyimg1.jpg"
+import lazyimg2 from "../assets/images/motivation/lazyimg2.jpg"
+import lazyimg3 from "../assets/images/motivation/lazyimg3.jpg"
+import lazyimg4 from "../assets/images/motivation/lazyimg4.jpg"
+import lazyimg5 from "../assets/images/motivation/lazyimg5.jpg"
+
 const articlesMotivation = [
     {
         category: "motivation",
       "title": "Débloquer votre potentiel : Comment surmonter la procrastination et atteindre vos objectifs",
       "slug": "debloquer-votre-potentiel-surmonter-procrastination-objectifs",
       "createDate": "2023-10-26",
+      lazyimg1: lazyimg1,
+      lazyimg2: lazyimg2,
       "img1": img1,
       "img2": img2,
       "p1": "La procrastination est un fléau qui affecte la plupart d'entre nous à un moment donné.  Ce cycle vicieux de remise à plus tard des tâches importantes peut entraver notre productivité et nous empêcher d'atteindre nos objectifs. Mais il existe des moyens de briser ce cycle et de libérer votre plein potentiel.",
@@ -27,6 +35,8 @@ const articlesMotivation = [
       "title": "La puissance du mindset positif : Comment transformer vos pensées en réalités",
       "slug": "puissance-mindset-positif-transformer-pensees-realites",
       "createDate": "2023-10-27",
+      lazyimg1: lazyimg3,
+      lazyimg2: lazyimg4,
       "img1": img3,
       "img2": img4,
       "p1": "Votre mindset est un outil puissant qui façonne votre perception du monde et influence votre comportement.  Un mindset positif peut vous aider à surmonter les défis, à vous fixer des objectifs ambitieux et à atteindre vos rêves.  Mais comment cultiver un mindset positif et transformer vos pensées en réalités ?",
@@ -45,6 +55,8 @@ const articlesMotivation = [
       "title": "Comment vaincre la peur de l'échec et embrasser le risque",
       "slug": "vaincre-peur-echec-embrasser-risque",
       "createDate": "2023-10-28",
+      lazyimg1: lazyimg5,
+      lazyimg2: lazyimg1,
       "img1": img5,
       "img2": img1,
       "p1": "La peur de l'échec est un obstacle qui peut nous empêcher de poursuivre nos rêves et de prendre des risques.  Cette peur peut nous paralyser et nous empêcher de progresser.  Mais il existe des moyens de vaincre cette peur et d'embrasser le risque.",
@@ -63,6 +75,8 @@ const articlesMotivation = [
       "title": "Développer la résilience : Comment rebondir après les revers et les épreuves",
       "slug": "developper-resilience-rebondir-revers-epreuves",
       "createDate": "2023-10-29",
+      lazyimg1: lazyimg2,
+      lazyimg2: lazyimg3,
       "img1": img2,
       "img2": img3,
       "p1": "La vie est pleine de défis et d'épreuves.  Des revers et des obstacles se présenteront inévitablement sur notre chemin.  C'est à ce moment-là que la résilience devient une qualité essentielle pour réussir et se réaliser.",
@@ -81,6 +95,8 @@ const articlesMotivation = [
       "title": "Le pouvoir de la visualisation : Comment créer la vie que vous voulez",
       "slug": "pouvoir-visualisation-creer-vie-voulez",
       "createDate": "2023-10-30",
+      lazyimg1: lazyimg4,
+      lazyimg2: lazyimg5,
       "img1": img4,
       "img2": img5,
       "p1": "La visualisation est un outil puissant qui peut vous aider à créer la vie que vous voulez.  Il s'agit d'une technique simple mais efficace qui consiste à imaginer et à visualiser vos objectifs et vos rêves comme s'ils étaient déjà une réalité.",
@@ -99,6 +115,8 @@ const articlesMotivation = [
       "title": "Comment développer la confiance en soi et briser les barrières mentales",
       "slug": "developper-confiance-soi-briser-barrieres-mentales",
       "createDate": "2023-10-31",
+      lazyimg1: lazyimg1,
+      lazyimg2: lazyimg2,
       "img1": img1,
       "img2": img2,
       "p1": "La confiance en soi est un élément essentiel du succès et du bonheur.  Elle vous permet de vous fixer des objectifs ambitieux, de prendre des risques et de surmonter les obstacles.  Mais comment développer la confiance en soi et briser les barrières mentales qui nous empêchent de nous réaliser pleinement ?",
@@ -117,6 +135,8 @@ const articlesMotivation = [
       "title": "Gérer les émotions négatives : Comment transformer la frustration en énergie positive",
       "slug": "gerer-emotions-negatives-transformer-frustration-energie-positive",
       "createDate": "2023-11-01",
+      lazyimg1: lazyimg3,
+      lazyimg2: lazyimg4,
       "img1": img3,
       "img2": img4,
       "p1": "La vie est pleine d'émotions, tant positives que négatives.  Les émotions négatives, telles que la frustration, la colère, la tristesse et la peur, peuvent nous affecter négativement et nous empêcher d'avancer.",
@@ -135,6 +155,8 @@ const articlesMotivation = [
       "title": "Définir vos valeurs fondamentales : Le guide pour une vie plus authentique et alignée",
       "slug": "definir-valeurs-fondamentales-guide-vie-authentique-alignee",
       "createDate": "2023-11-02",
+      lazyimg1: lazyimg5,
+      lazyimg2: lazyimg1,
       "img1": img5,
       "img2": img1,
       "p1": "Vos valeurs fondamentales sont les principes et les croyances qui guident vos actions, vos décisions et votre façon de vivre.  Elles représentent ce qui est important pour vous, ce qui vous motive et ce qui donne un sens à votre vie.",
@@ -153,6 +175,8 @@ const articlesMotivation = [
       "title": "Cultiver la gratitude : Comment transformer votre vie en reconnaissant les petites choses",
       "slug": "cultiver-gratitude-transformer-vie-reconnaissant-petites-choses",
       "createDate": "2023-11-03",
+      lazyimg1: lazyimg2,
+      lazyimg2: lazyimg3,
       "img1": img2,
       "img2": img3,
       "p1": "La gratitude est une émotion puissante qui consiste à apprécier les choses positives dans votre vie.  Elle peut transformer votre perception du monde et vous aider à vivre une vie plus épanouie et plus heureuse.",

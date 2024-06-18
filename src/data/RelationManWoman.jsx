@@ -3,12 +3,20 @@ import img2  from "../assets/images/relation homme femme/img2.png"
 import img3 from "../assets/images/relation homme femme/img3.png"
 import img4  from "../assets/images/relation homme femme/img4.png"
 import img5  from "../assets/images/relation homme femme/img5.png"
+import lazyimg1 from "../assets/images/relation homme femme/lazyimg1.jpg"
+import lazyimg2 from "../assets/images/relation homme femme/lazyimg2.jpg"
+import lazyimg3 from "../assets/images/relation homme femme/lazyimg3.jpg"
+import lazyimg4 from "../assets/images/relation homme femme/lazyimg4.jpg"
+import lazyimg5 from "../assets/images/relation homme femme/lazyimg5.jpg"
+
 const articlesRelationManWoman = [
     {
         category: "relation homme-femme",
       title: "Comment raviver la flamme dans une relation de longue durée",
       slug: "comment-raviver-la-flamme-dans-une-relation-de-longue-duree",
       createDate: "2024-06-14",
+      lazyimg1: lazyimg1,
+      lazyimg2: lazyimg2,
       img1: img1,
       img2: img2,
       p1: "Après plusieurs années ensemble, il est normal que la passion et l'excitation initiales dans une relation s'estompent un peu. Cependant, il existe des moyens efficaces pour raviver la flamme et retrouver la magie des débuts.",
@@ -27,6 +35,8 @@ const articlesRelationManWoman = [
       title: "Les clés pour une communication efficace dans un couple",
       slug: "les-cles-pour-une-communication-efficace-dans-un-couple",
       createDate: "2024-06-15",
+      lazyimg1: lazyimg3,
+      lazyimg2: lazyimg4,
       img1: img3,
       img2: img4,
       p1: "La communication est la fondation d'une relation saine et épanouie. Cependant, il peut être difficile de bien communiquer dans un couple. Voici quelques clés pour y parvenir.",
@@ -45,6 +55,8 @@ const articlesRelationManWoman = [
       title: "Comment gérer les désaccords dans une relation amoureuse",
       slug: "comment-gerer-les-desaccords-dans-une-relation-amoureuse",
       createDate: "2024-06-16",
+      lazyimg1: lazyimg5,
+      lazyimg2: lazyimg1,
       img1: img5,
       img2: img1,
       p1: "Les désaccords font partie intégrante de toute relation. Ce qui compte le plus, c'est comment vous les gérez ensemble. Voici quelques conseils pour surmonter les conflits dans votre relation amoureuse.",
@@ -63,6 +75,8 @@ const articlesRelationManWoman = [
       title: "L'importance de la confiance mutuelle dans une relation",
       slug: "l-importance-de-la-confiance-mutuelle-dans-une-relation",
       createDate: "2024-06-17",
+      lazyimg1: lazyimg2,
+      lazyimg2: lazyimg3,
       img1: img2,
       img2: img3,
       p1: "La confiance est la base d'une relation solide et épanouie. Sans elle, la relation peut être fragile et sujette à des malentendus et à des conflits.",
@@ -81,6 +95,8 @@ const articlesRelationManWoman = [
         title: "Les secrets d'une communication non verbale réussie dans une relation",
         slug: "les-secrets-d-une-communication-non-verbale-reussie-dans-une-relation",
         createDate: "2024-06-18",
+        lazyimg1: lazyimg4,
+        lazyimg2: lazyimg5,
         img1: img4,
         img2: img5,
         p1: "La communication non verbale joue un rôle essentiel dans la façon dont nous interagissons et nous connectons avec notre partenaire. Voici quelques secrets pour améliorer cette forme de communication dans votre relation.",
@@ -99,6 +115,8 @@ const articlesRelationManWoman = [
         title: "Comment cultiver la complicité dans votre relation",
         slug: "comment-cultiver-la-complicite-dans-votre-relation",
         createDate: "2024-06-19",
+        lazyimg1: lazyimg1,
+        lazyimg2: lazyimg2,
         img1: img1,
         img2: img2,
         p1: "La complicité est ce lien spécial qui unit deux personnes au-delà de l'amour et de l'affection. Cultiver cette connexion peut renforcer votre relation et vous rapprocher encore plus.",
@@ -117,6 +135,8 @@ const articlesRelationManWoman = [
         title: "Les défis et les bénéfices d'une relation à distance",
         slug: "les-defis-et-les-benefices-d-une-relation-a-distance",
         createDate: "2024-06-20",
+        lazyimg1: lazyimg3,
+        lazyimg2: lazyimg4,
         img1: img3,
         img2: img4,
         p1: "Les relations à distance peuvent être à la fois enrichissantes et difficiles. Découvrez comment naviguer à travers les défis et apprécier les avantages uniques d'une relation à distance.",
@@ -135,6 +155,8 @@ const articlesRelationManWoman = [
         title: "Comment construire la confiance après une trahison dans une relation",
         slug: "comment-construire-la-confiance-apres-une-trahison-dans-une-relation",
         createDate: "2024-06-21",
+        lazyimg1: lazyimg5,
+        lazyimg2: lazyimg1,
         img1: img5,
         img2: img1,
         p1: "La trahison peut ébranler profondément la confiance dans une relation, mais il est possible de la reconstruire avec du temps, de l'effort et un engagement sincère des deux parties.",
@@ -153,6 +175,8 @@ const articlesRelationManWoman = [
         title: "Les signes révélateurs d'une relation toxique et comment agir",
         slug: "les-signes-revelateurs-d-une-relation-toxique-et-comment-agir",
         createDate: "2024-06-22",
+        lazyimg1: lazyimg2,
+        lazyimg2: lazyimg3,
         img1: img2,
         img2: img3,
         p1: "Identifier les signes d'une relation toxique est crucial pour préserver votre bien-être émotionnel et mental. Voici quelques indicateurs à surveiller et des conseils sur la manière de réagir.",
@@ -171,6 +195,8 @@ const articlesRelationManWoman = [
         title: "Comment maintenir l'indépendance tout en étant dans une relation épanouissante",
         slug: "comment-maintenir-l-independance-tout-en-etant-dans-une-relation-epanouissante",
         createDate: "2024-06-23",
+        lazyimg1: lazyimg4,
+        lazyimg2: lazyimg5,
         img1: img4,
         img2: img5,
         p1: "Maintenir votre indépendance dans une relation est essentiel pour votre épanouissement personnel et votre bonheur à long terme. Voici comment trouver l'équilibre entre l'amour et l'indépendance.",

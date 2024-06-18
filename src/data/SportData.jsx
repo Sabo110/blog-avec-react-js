@@ -3,6 +3,11 @@ import img2  from "../assets/images/sport/img2.png"
 import img3 from "../assets/images/sport/img3.png"
 import img4  from "../assets/images/sport/img4.png"
 import img5  from "../assets/images/sport/img5.png"
+import lazyimg1 from "../assets/images/sport/lazyimg1.jpg"
+import lazyimg2 from "../assets/images/sport/lazyimg2.jpg"
+import lazyimg3 from "../assets/images/sport/lazyimg3.jpg"
+import lazyimg4 from "../assets/images/sport/lazyimg4.jpg"
+import lazyimg5 from "../assets/images/sport/lazyimg5.jpg"
 
 const articlesSport = [
     {
@@ -10,6 +15,8 @@ const articlesSport = [
       title: "Les bienfaits du jogging quotidien",
       slug: "les-bienfaits-du-jogging-quotidien",
       createDate: "2024-01-01",
+      lazyimg1: lazyimg1,
+      lazyimg2: lazyimg2,
       img1: img1,
       img2: img2,
       p1: "Le jogging quotidien peut transformer votre vie de manière incroyable. Non seulement il améliore votre condition physique, mais il a aussi des effets positifs sur votre santé mentale.",
@@ -28,6 +35,8 @@ const articlesSport = [
       title: "Les avantages de la natation pour tous les âges",
       slug: "les-avantages-de-la-natation-pour-tous-les-ages",
       createDate: "2024-01-02",
+      lazyimg1: lazyimg3,
+      lazyimg2: lazyimg4,
       img1: img3,
       img2: img4,
       p1: "La natation est un sport complet qui convient à tous, quel que soit l'âge. Elle offre de nombreux avantages pour la santé et le bien-être.",
@@ -46,6 +55,8 @@ const articlesSport = [
       title: "Le yoga : harmonie du corps et de l'esprit",
       slug: "le-yoga-harmonie-du-corps-et-de-l-esprit",
       createDate: "2024-01-03",
+      lazyimg1: lazyimg5,
+      lazyimg2: lazyimg1,
       img1: img5,
       img2: img1,
       p1: "Le yoga est bien plus qu'une simple activité physique. C'est une pratique qui harmonise le corps et l'esprit, offrant des bienfaits profonds.",
@@ -64,6 +75,8 @@ const articlesSport = [
       title: "Le cyclisme : une activité pour le corps et l'esprit",
       slug: "le-cyclisme-une-activite-pour-le-corps-et-l-esprit",
       createDate: "2024-01-04",
+      lazyimg1: lazyimg2,
+      lazyimg2: lazyimg3,
       img1: img2,
       img2: img3,
       p1: "Le cyclisme est une activité sportive populaire qui offre de nombreux avantages pour le corps et l'esprit. Enfourchez votre vélo et découvrez ses bienfaits!",
@@ -82,6 +95,8 @@ const articlesSport = [
       title: "Les bienfaits des sports d'équipe",
       slug: "les-bienfaits-des-sports-d-equipe",
       createDate: "2024-01-05",
+      lazyimg1: lazyimg4,
+      lazyimg2: lazyimg5,
       img1: img4,
       img2: img5,
       p1: "Les sports d'équipe sont non seulement amusants, mais ils apportent aussi de nombreux avantages pour la santé physique et mentale. Découvrez pourquoi vous devriez essayer!",
@@ -100,6 +115,8 @@ const articlesSport = [
       title: "Le tennis : un sport complet et dynamique",
       slug: "le-tennis-un-sport-complet-et-dynamique",
       createDate: "2024-01-06",
+      lazyimg1: lazyimg1,
+      lazyimg2: lazyimg2,
       img1: img1,
       img2: img2,
       p1: "Le tennis est un sport passionnant qui offre une multitude de bénéfices pour la santé physique et mentale. Prenez votre raquette et découvrez pourquoi!",
@@ -118,6 +135,8 @@ const articlesSport = [
       title: "Le fitness à domicile : rester en forme sans salle de sport",
       slug: "le-fitness-a-domicile-rester-en-forme-sans-salle-de-sport",
       createDate: "2024-01-07",
+      lazyimg1: lazyimg3,
+      lazyimg2: lazyimg4,
       img1: img3,
       img2: img4,
       p1: "Le fitness à domicile est une solution pratique et efficace pour rester en forme sans avoir besoin de se rendre à la salle de sport. Découvrez comment commencer!",
@@ -136,6 +155,8 @@ const articlesSport = [
       title: "Les bienfaits de la randonnée",
       slug: "les-bienfaits-de-la-randonnee",
       createDate: "2024-01-08",
+      lazyimg1: lazyimg5,
+      lazyimg2: lazyimg1,
       img1: img5,
       img2: img1,
       p1: "La randonnée est une activité sportive accessible et bénéfique pour tous. Elle permet de combiner exercice physique et découverte de la nature.",
@@ -154,6 +175,8 @@ const articlesSport = [
       title: "Les bienfaits de la boxe pour la santé",
       slug: "les-bienfaits-de-la-boxe-pour-la-sante",
       createDate: "2024-01-09",
+      lazyimg1: lazyimg2,
+      lazyimg2: lazyimg3,
       img1: img2,
       img2: img3,
       p1: "La boxe est bien plus qu'un sport de combat. Elle offre de nombreux avantages pour la santé physique et mentale. Découvrez pourquoi vous devriez essayer!",
@@ -172,6 +195,8 @@ const articlesSport = [
       title: "Les bienfaits du Pilates pour la posture et la force",
       slug: "les-bienfaits-du-pilates-pour-la-posture-et-la-force",
       createDate: "2024-01-10",
+      lazyimg1: lazyimg4,
+      lazyimg2: lazyimg5,
       img1: img4,
       img2: img5,
       p1: "Le Pilates est une méthode d'entraînement douce mais efficace qui offre de nombreux bienfaits pour la posture et la force. Découvrez ses avantages!",
